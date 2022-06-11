@@ -1,0 +1,142 @@
+.pagina_2{
+    max-width: 960px;
+    min-width: 320px; 
+    margin: 0 auto;
+    color: white;
+    h2{
+        font-weight: 400;
+        font-size:24px;
+        line-height: 32.38px;
+        max-width:960px;
+        text-align:center;
+    }
+
+    p{
+    text-align:center;
+    }
+}
+
+.modelo-de-clase h2{
+    color: black;
+}
+
+.p2-background-base{
+    height: 778px;
+    width: auto; 
+    background-color: transparent;
+    z-index:-2;
+}
+
+.p2-background-image-base{
+    height: 800px;
+    width: auto;
+    background-image: url('../img/Group 2280.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: -800px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.dist-info{
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+}
+
+.img-evony{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+}
+
+.p2-evony-info-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.dist-info{
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+    gap:0rem;
+}
+
+@media (min-width: 786px){
+    .dist-info{
+        grid-template-rows: unset;
+        grid-template-columns:repeat(2,1fr);
+    }
+    .evony-description{
+        grid-row: 1/2;
+        text-align: center;
+    }
+    
+}
+
+.valoracion{
+display:flex;
+justify-content:center;
+gap:0.5rem;
+p{
+    margin:0;
+    padding:0;
+    margin-left:1rem;
+}
+.star{
+    width: 16px;
+    height: 15px;
+    margin:0;
+    padding: 0;
+}
+}
+
+.p2-feature{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items:center;
+    gap: 7px;
+    margin:0;
+    padding: 0;
+    .dot{
+        height: 4px;
+        width: 4px;
+        background-color: white;
+        border-radius: 50%;
+        display: inline;
+        padding-top:0;
+        margin: 0;
+    }
+    .feture-evony{
+        display: inline-block;
+    }
+}
+
+@media (min-width: 786px){
+.year{
+    color: transparent;
+}
+    
+}
+
+.btn_shop_p2{
+    background-color: black;
+    height: 32px;
+    width: 228px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
