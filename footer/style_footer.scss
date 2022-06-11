@@ -1,0 +1,665 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    box-sizing: border-box;
+    max-width: 960px;
+}
+.fondo{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    height: 589px;
+    z-index: -1;
+    
+}
+.fondo2{
+    position: relative;
+    display: flex;
+    top:300px;
+    
+    z-index: -1;
+}
+.conoce-a-nuestros-partners{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    
+    left: 50px;
+    font-weight:400px;
+    font-size:32px;
+}
+.container-pagina-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    gap: 15px;
+    flex-wrap: wrap;
+    position: static;
+    top: 90px;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 5px;
+    top: 6px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    align-items: flex-start; 
+}
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 5px;
+    top: 7px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    align-items: flex-start;
+}
+.contenedor3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:235px;
+    top: 7px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    align-items: flex-start;
+}
+.contenedor4{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 235px;;
+    top: 7px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    align-items: flex-start;
+}
+.contenedor5{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 235px;
+    top: 7px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    align-items: flex-start;
+}
+.contenedor6{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 5px;
+    top: 7px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    align-items: flex-start;
+}
+.contenedor7{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 5px;
+    top: 7px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0.889758px solid #FFFFFF;
+    border-radius: 50%;
+    width: 88.98px;
+    height: 88.98px;
+    align-items: flex-start;
+}
+.boton1{
+    position: relative;
+    right: 70px;
+    top:20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 5px;
+    background-color: black;
+    width: 328.32px;
+    height: 103.21px;
+    border-radius:1000px;
+    text-decoration: none;
+    text-emphasis-color: white;
+    justify-content: space-between;
+    color: white;
+    
+    .icon1{
+        box-sizing: border-box;
+        position: relative;
+        left: 20px;
+        top: 12px;
+        border-radius: 1000px;
+    }
+    
+    .texto1{
+        position: relative;
+        right:90px;
+        top: 30px;
+        font-size: 40px;
+    }
+}
+.boton2{
+    position: relative;
+    left: 70px;
+    top:20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 5px;
+    background-color: black;
+    width: 328.32px;
+    height: 103.21px;
+    border-radius:1000px;
+    text-decoration: none;
+    text-emphasis-color: white;
+    justify-content: space-between;
+    color: white;
+    .icon2{
+        box-sizing: border-box;
+        position: relative;
+        left: 7px;
+        top: 25px;
+        
+        border-radius: 1000px;
+    }
+    .texto2{
+        position: relative;
+        right:50px;
+        top: 30px;
+        font-size: 40px;
+    }
+    }
+    .boton3{
+        position: relative;
+        right: 150px;
+        top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        margin: 5px;
+        background-color: black;
+        width: 328.32px;
+        height: 103.21px;
+        border-radius:1000px;
+        text-decoration: none;
+        text-emphasis-color: white;
+        justify-content: space-between;
+        color: white;
+        .icon3{
+            box-sizing: border-box;
+            position: relative;
+            left: 18px;
+            top: 19px;
+            border-radius: 1000px;
+         }
+         .texto3{
+            position: relative;
+            right:150px;
+            top: 30px;
+            font-size: 40px;
+        }
+        }
+.boton4{
+    position: relative;
+    right:150px;
+    top:20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 5px;
+    background-color: black;
+    width: 328.32px;
+    height: 103.21px;
+    border-radius:1000px;
+    text-decoration: none;
+    text-emphasis-color: white;
+    justify-content: space-between;
+    color: white;
+    .icon4{
+        box-sizing: border-box;
+        position: relative;
+        left: 15px;
+        top: 16px;
+        border-radius: 1000px;
+     } 
+     .texto4{
+        position: relative;
+        right:130px;
+        top: 30px;
+        font-size: 40px;
+    }
+    }
+.boton5{
+    position: relative;
+    left:550px;
+    bottom:110px;   
+display: flex;
+flex-direction: row;
+gap: 15px;
+margin: 5px;
+background-color: black;
+width: 328.32px;
+ height: 103.21px;
+border-radius:1000px;
+text-decoration: none;
+text-emphasis-color: white;
+justify-content: space-between;
+color: white;
+ .icon5{
+     box-sizing: border-box;
+     position: relative;
+     left: 15px;
+     top: 13px;
+     border-radius: 1000px;
+ }
+ .texto5{
+    position: relative;
+    right:130px;
+    top: 30px;
+    font-size: 40px;
+}
+} 
+.boton6{
+    position: relative;
+    left: 70px;
+    top:20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 5px;
+    background-color: black;
+    width: 328.32px;
+    height: 103.21px;
+    border-radius:1000px;
+    text-decoration: none;
+    text-emphasis-color: white;
+    justify-content: space-between;
+    color: white;
+    .icon6{
+        box-sizing: border-box;
+        position: relative;
+        left: 18px;
+        top: 18px;
+        border-radius: 1000px;
+    }
+    .texto6{
+        position: relative;
+        right:60px;
+        top: 30px;
+        font-size: 40px;
+    }
+ } 
+.boton7{
+    position: relative;
+    right: 250px;
+    bottom:108px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 5px;
+    background-color: black;
+    width: 328.32px;
+    height: 103.21px;
+    border-radius:1000px;
+    text-decoration: none;
+    text-emphasis-color: white;
+    justify-content: space-between;
+    color: white;
+    .icon7{
+        box-sizing: border-box;
+        position: relative;
+        left: 23px;
+        top: 20px;
+        border-radius: 1000px;
+    }
+    .texto7{
+        position: relative;
+        right:70px;
+        top: 30px;
+        font-size: 40px;
+    }
+    }                                       
+    
+.desafio{
+    position: relative;
+}
+@media only screen and (max-width:320px){
+    .boton2{
+        
+        display: none;
+        
+        
+    
+    }
+    .boton3{
+        display: none;
+    
+    
+    }
+    .boton5{
+        display: none;
+    }
+    .boton6{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .boton1{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        width: 400px;
+    }
+    .boton4{
+        position: relative;
+        left: 300px;
+        top: 50px;
+        
+    }
+    
+    .boton7{
+        position: relative;
+        left: 300px;
+        top: 50px;
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .texto1{
+        position: relative;
+        left:-45px;
+    }
+    .texto4{
+        position: relative;
+        left: -100px;
+    }
+    .texto7{
+        position: relative;
+        left: -30px;
+        
+    }
+}
+@media only screen and (max-width:320px){
+    .contenedor4{
+        position: relative;
+        left: 215px;
+
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .conoce-a-nuestros-partners{
+        position: relative;
+    display: flex;
+       flex-direction: row;
+       
+        left: 350px;
+    }
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    height: 30px;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 960px;
+    max-height:auto ;
+}
+.fondo2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 1650px;
+    right:0px;
+    width: 960px;
+    height: 589px;
+   
+   
+}
+.desafio{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 133px;
+    height: 116px;
+    left: 50px;
+    top: 100px;
+
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 250px;
+    right: 60px;
+    .tweet{
+        position: relative;
+        right: 28.5px;
+        bottom:7px;
+    }
+    .facebook{
+        position: relative;
+        right: 26px;
+        bottom:5px;
+
+    }
+}
+.nosotros{
+    position: relative;
+        left: 180px;
+        top:100px;
+        text-decoration: none;
+        align-items: center;
+        font-size: 19px;
+        width: 400px;
+        height: 19px;
+       font-weight: 700;
+        .home{
+            width: 300px;
+            height: 18px;
+            margin: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: 400;
+        }
+        .nuevo{
+            width: 300px;
+            height: 18px;
+            margin: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: 400;
+        }
+        .pianos{
+            width: 300px;
+            height: 18px;
+            margin: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: 400;
+        }
+        .conoce{
+            width: 300px;
+            height: 18px;
+            margin: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: 400;
+        }
+}
+.contactanos{
+    position: relative;
+        left: 470px;
+        top: 100px;
+        text-decoration: none;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        .contac{
+            position: relative;
+            font-size: 19px;
+            width: 400px;
+            height: 19px;
+            bottom:15px;
+            font-weight: 700;
+        }
+        .contacto{
+            cursor: pointer;
+        }
+}
+.cr{
+    position: relative;
+        right: 270px;
+        top: 100px;
+        text-decoration: none;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+}
+.decor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+        right: 270px;
+        top: 200px;
+        text-decoration: none;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+         
+}
+@media only screen and (max-width:320px){
+    .desafio{
+        left: 200px;
+        width: 133px;
+        height: 400px;
+        top: 400px;
+    }
+    .redes{
+        left: 200px;
+        top: 700px;
+        width: 133px;
+        height: 400px;
+        
+
+    }
+    .nosotros{
+        left: 300px;
+        top: 350px;
+        width: 133px;
+        height: 300px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .home{
+            font-size: 30px;
+            margin: 20px;
+            height: auto;
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+        .nuevo{
+            font-size: 30px;
+            margin: 20px;
+            height: auto;
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+        .pianos{
+            font-size: 30px;
+            margin: 20px;
+            height: auto;
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+        .conoce{
+            font-size: 30px;
+            margin: 20px;
+            height: 40px; 
+            position: relative;
+            right: 65px;
+            top: 10px;    
+        }
+    }
+    .contactanos{
+        position: relative;
+        font-size: 30px;
+        left: 200px;
+        top:400px;
+        width: 133px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+     .contac{
+        position: relative;
+        font-size: 40px;
+        left: 30px;
+     }   
+    .cr{
+        left: 5px;
+        top: 80px;
+        width: 133px;
+        height: 300px;
+        
+    }
+    .decor{
+        left: 5px;
+        top: 0px;
+        width: 133px;
+        height: px;
+    }
+    
+}
+}
+@media only screen and (min-width:320px) {
+         .fondo2{
+            width: 100%;
+            height: 100%;          
+         }
+
+}
+    
