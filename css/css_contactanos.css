@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+}
+
+.contactanos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    background-color: black;
+    
+}
+
+.description{
+    height: 200px;
+}
+
+.enviar{
+    background: black;
+    color: white;
+
+    border-radius:.5rem;
+}
+
+
+.container_contactanos{
+    /** background-image: url(/clase7_HTML/images/background_contactanos.png);**/
+    background-image: url('../img/darius-soodmand-F8E2tks5N04-unsplash\ 1.png');
+    opacity:85%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .title_contacta{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:425px) {
+   .container_contactanos{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .enviar{
+       width: 350px;
+       height: 45px;
+       
+
+   }
+   .description{
+       width: 350px;
+       height: 165px;
+       opacity: 80%;
+   }
+
+   .name{
+       width: 350px;
+       height: 40px;
+       opacity:85%;
+
+   }
+
+   .phone{
+    width: 350px;
+    height: 40px;
+    opacity:85%;
+
+    }
+
+    .email{
+    width: 350px;
+    height: 40px;
+    opacity:85%;
+
+    }
+
+    p{
+        padding: 30px;
+       
+       text-align: center;
+    }
+   
+}
+
+@media (max-width:768px) and (min-width:426px) {
+    .container_contactanos{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    p{
+        margin: 30px;
+    }
+
+    .description{
+        width: 700px;
+        opacity: 85%;
+    }
+
+    .name{
+        width: 700px;
+        height: 40px;
+        opacity:85%;
+ 
+    }
+ 
+    .phone{
+     width: 700px;
+     height: 40px;
+     opacity:85%;
+ 
+     }
+ 
+     .email{
+     width: 700px;
+     height: 40px;
+     opacity:85%;
+ 
+     }
+
+     .enviar{
+        width: 700px;
+        height: 45px;
+        
+ 
+    }
+}
+
+
+@media (min-width:1024px){
+    .contact_medium{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        left: 180px;
+       
+        .phone_title{
+            position: relative;
+            bottom:40px;
+            left: 70px;
+
+           
+        }
+        .email_title{
+            position: relative;
+            bottom:40px;
+            left: 50px;
+
+        }
+
+       
+    }
+
+    .enviar{
+        justify-content: center;
+    }
+
+    .container_name{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        .name_title{
+            position: relative;
+            bottom:40px;
+            left: 70px;
+        }
+    }
+
+    .container_description{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        padding-top: 90px;
+
+        .description_title{
+            position: relative;
+            bottom:40px;
+            left: 120px;
+        }
+    }
+}
