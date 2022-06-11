@@ -132,6 +132,7 @@ header nav .carrito {
 body {
   background-color: #ffffff;
   max-width: 960px;
+  margin: 0 auto;
 }
 
 section {
